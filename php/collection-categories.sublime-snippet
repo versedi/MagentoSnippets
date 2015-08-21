@@ -5,7 +5,7 @@
                           ->addIsActiveFilter()
                           ->addAttributeToFilter('level', array('eq'=>2))
                           ->load();
-    foreach($categories as $category => $categoryId) {
+    foreach({$categories} as {$category} => {$categoryId}) {
     }
  ]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

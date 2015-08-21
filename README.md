@@ -47,9 +47,26 @@ If you have something to improve these snippets, please create a [issue](https:/
 1. `mg-translate-phtml` :: Adds the translator helper output
 1. `mg-getAttrText` :: Get Attribute Text in product view
 1. `mg-url-asec` :: Get Array Secure Url
+1. `mg-url-media` :: Get Media Url
 1. `mg-format-price-currency` :: Format Price
 1. `mg-storeInfo` :: Gets store information
 1. `mg-viewport` :: Viewport metatag to load media-queries
+1. `mg-debug-layout-handles` :: Debug layout handles
+
+
+### PHP
+1. `mg-collection-categories` :: Get all first level categories
+1. `mg-collection-products` :: Get all active products
+1. `mg-currency-symbol` :: Get currency symbol
+1. `mg-customer-logged-in` :: Get customer session status
+1. `mg-customer-group-id` :: Get customer group ID
+1. `mg-debug-zend` :: Debug SELECTION with Zend_Debug::dump
+1. `mg-log` :: Log something to system.log
+1. `mg-product-load-all` :: Load all products by SKUs
+1. `mg-product-load-attributes` :: Load all product attributes sets and get ids
+1. `mg-set-admin-stores` :: Set current store as ADMIN
+1. `mg-stores-array` :: Get array of all stores
+1. `mg-websites-array` :: Get array of all websites
 
 ### JS
 

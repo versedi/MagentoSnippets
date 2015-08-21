@@ -9,7 +9,7 @@ Install via [Package Control](https://packagecontrol.io/installation)
 ## How do I use it?
 The tab trigger of this plugin is "mg-*".
 
-In some editors just the tab key don't trigger the snippet, so you have to press control+space to make the things happen:
+In some editors just the tab key don't trigger the snippet, <strike>so you have to press control+space to make the things happen:</strike> --> **For me it doesn't work, I honestly hope that Sublime creators will fix this issue**
 
 ![MagentoSnippets: example of use](http://www.magefront.com.br/wp-content/uploads/2015/01/MagentoSnippets-sample.gif)
 

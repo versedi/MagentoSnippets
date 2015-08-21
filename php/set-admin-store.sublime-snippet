@@ -1,0 +1,10 @@
+<snippet>
+     <content><![CDATA[
+        Mage::app()->setCurrentStore(Mage_Core_Model_App::ADMIN_STORE_ID);
+ ]]></content>
+     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+     <tabTrigger>mg-set-admin-store</tabTrigger>
+     <!-- Optional: Set a scope to limit where the snippet will trigger -->
+     <scope>source.php</scope>
+     <description>Set current store as ADMIN_STORE_ID</description>
+ </snippet>

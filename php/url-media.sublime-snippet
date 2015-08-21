@@ -1,7 +1,6 @@
-
 <snippet>
     <content><![CDATA[
-        Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA);
+Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA);
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mg-url-media</tabTrigger>

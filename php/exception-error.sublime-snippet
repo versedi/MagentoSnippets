@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-$errorMessage .= ": ${2:error_string}  in ${2:error_file} on line ${3:error_line}";
+\$errorMessage .= ": ${2:error_string} in ${2:error_file} on line ${3:error_line}";
 if (Mage::getIsDeveloperMode()) {
     throw new Exception($errorMessage);
 } else {

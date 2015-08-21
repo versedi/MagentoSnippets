@@ -1,5 +1,5 @@
 # MagentoSnippets
-Magento Front End Snippets, plugin for Sublime Text.
+## This Fork of **Magento Front End Snippets** plugin for Sublime Text contains added PHP scope and snippets useful for everyday modules development.
 
 This tool serves to aid the productivity during the Magento's theme development through snippets. These snippets brings partial codes belonging the Magento framework. These code that we used everyday, but never memorized because they are often complex and lengthy.
 
@@ -18,7 +18,7 @@ If you have something to improve these snippets, please create a [issue](https:/
 
 **For how to do your own snippet and contribute for this tool see the [contribution text](https://github.com/MageFront/MagentoSnippets/blob/master/contribute.md)**
 
-## Avaiable Snippets
+## Available Snippets
 
 ### XML
 
@@ -56,8 +56,8 @@ If you have something to improve these snippets, please create a [issue](https:/
 1. `mg-vars` :: Get Variable from admin
 1. `mg-viewport` :: Viewport metatag to load media-queries
 
-
 ### PHP
+
 1. `mg-cart-get-items` :: Get all items from cart
 1. `mg-collection-categories` :: Get all first level categories
 1. `mg-collection-products` :: Get all active products
@@ -67,13 +67,17 @@ If you have something to improve these snippets, please create a [issue](https:/
 1. `mg-debug-zend` :: Debug SELECTION with Zend_Debug::dump
 1. `mg-exception-error` :: Throw exception if developer mode is on else log error
 1. `mg-log` :: Log something to system.log
+1. `mg-log-custom-file` :: Log something to custom file.log
+1. `mg-module-model-function` :: Call function from Namespace_Module/Model
 1. `mg-product-load-all` :: Load all products by SKUs
 1. `mg-product-load-attributes` :: Load all product attributes sets and get ids
 1. `mg-set-admin-stores` :: Set current store as ADMIN
 1. `mg-stores-array` :: Get array of all stores
+1. `mg-url-media` :: Get Media URL
 1. `mg-websites-array` :: Get array of all websites
 
 ### HTML (email templates variables)
+
 1. `mg-email-css-inline` :: Get email template css inline
 1. `mg-email-footer` :: Get email footer section
 1. `mg-email-header` :: Get email header section

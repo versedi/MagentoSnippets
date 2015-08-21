@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-        $_productCollection = Mage::getModel('catalog/product')->setStoreId($storeId)->getCollection();
-        $_productCollection->addAttributeToSelect('*')->addAttributeToSelect('*')->addAttributeToFilter('status', array('eq' => Mage_Catalog_Model_Product_Status::STATUS_ENABLED));
-        $_productCollection->addFieldToFilter('sku', array('like' => '%'));
+        \$_productCollection = Mage::getModel('catalog/product')->setStoreId(\$storeId)->getCollection();
+        \$_productCollection->addAttributeToSelect('*')->addAttributeToSelect('*')->addAttributeToFilter('status', array('eq' => Mage_Catalog_Model_Product_Status::STATUS_ENABLED));
+        \$_productCollection->addFieldToFilter('sku', array('like' => '%'));
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mg-collection-product</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
-    <description>Create $_productCollection of all active products in store</description>
+    <description>Create \$_productCollection of all active products in store</description>
 </snippet>

@@ -1,7 +1,7 @@
 <snippet>
-     <content><![CDATA[$product_attribute_sets = Mage::getResourceModel('eav/entity_attribute_set_collection')->setEntityTypeFilter(Mage::getModel('catalog/product')->getResource()->getTypeId());
-    foreach ($product_attribute_sets as $a_sets) {
-        $this->_attribute_sets[$a_sets->getAttributeSetName()] = $a_sets->getAttributeSetId();
+     <content><![CDATA[\$product_attribute_sets = Mage::getResourceModel('eav/entity_attribute_set_collection')->setEntityTypeFilter(Mage::getModel('catalog/product')->getResource()->getTypeId());
+    foreach (\$product_attribute_sets as \$a_sets) {
+        \$this->_attribute_sets[\$a_sets->getAttributeSetName()] = \$a_sets->getAttributeSetId();
     }]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
      <tabTrigger>mg-product-load-attributes</tabTrigger>

@@ -1,16 +1,16 @@
  <snippet>
-     <content><![CDATA[$categories = Mage::getModel('catalog/category')->setStoreId($storeId)
+     <content><![CDATA[\$categories = Mage::getModel('catalog/category')->setStoreId(\$storeId)
                           ->getCollection()
                           ->addAttributeToSelect('*')
                           ->addIsActiveFilter()
                           ->addAttributeToFilter('level', array('eq'=>2))
                           ->load();
-    foreach({$categories} as {$category} => {$categoryId}) {
+    foreach(\$categories as \$category} => \$categoryId) {
     }
  ]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
      <tabTrigger>mg-collection-category</tabTrigger>
      <!-- Optional: Set a scope to limit where the snippet will trigger -->
      <scope>source.php</scope>
-     <description>Get currency symbol and assign it to $currencySymbol variable</description>
+     <description>Get currency symbol and assign it to \$currencySymbol variable</description>
  </snippet>

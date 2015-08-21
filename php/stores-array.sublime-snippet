@@ -1,7 +1,7 @@
 <snippet>
      <content><![CDATA[
-        foreach (Mage::app()->getStores() as $store) {
-            $this->_stores[$store->getCode()] = $store->getId();
+        foreach (Mage::app()->getStores() as \$store) {
+            \$this->_stores[\$store->getCode()] = \$store->getId();
         }
  ]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

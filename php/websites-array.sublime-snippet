@@ -1,6 +1,6 @@
 <snippet>
-     <content><![CDATA[foreach (Mage::app()->getWebsites() as $website) {
-            $this->_websites[$website->getCode()] = $website->getId();
+     <content><![CDATA[foreach (Mage::app()->getWebsites() as \$website) {
+            \$this->_websites[\$website->getCode()] = \$website->getId();
         }]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
      <tabTrigger>mg-website-array</tabTrigger>

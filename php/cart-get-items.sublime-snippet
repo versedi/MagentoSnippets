@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Mage::helper('checkout/cart')->getCart()->getItems();]]></content>
+  <tabTrigger>mg-cart-get-items</tabTrigger>
+  <scope>source.php</scope>
+  <description>Get all items in cart</description>
+</snippet>

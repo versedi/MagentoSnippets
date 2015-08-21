@@ -22,44 +22,44 @@ If you have something to improve these snippets, please create a [issue](https:/
 
 ### XML
 
-1. `mg-xml-cms-block` :: CMS Block in XML
-1. `mg-xml-css` :: Adds CSS in XML
+1. `mg-insert` :: Insert block Method
+1. `mg-local-xml` :: Writes the basic structure to a new local.xml file
 1. `mg-ref` :: Add reference tag
+1. `mg-removeItem` :: Remove head items by xml
 1. `mg-rm` :: XML to removes a block
 1. `mg-set-template` :: Action to set a new root template
-1. `mg-xml-skinjs` :: Add skin js in XML
-1. `mg-xml-setcolumn` :: Add number of columns in product list
-1. `mg-local-xml` :: Writes the basic structure to a new local.xml file
 1. `mg-unsetchild` :: Unset Child Method
-1. `mg-insert` :: Insert block Method
-1. `mg-removeItem` :: Remove head items by xml
+1. `mg-xml-cms-block` :: CMS Block in XML
+1. `mg-xml-css` :: Adds CSS in XML
+1. `mg-xml-setcolumn` :: Add number of columns in product list
+1. `mg-xml-skinjs` :: Add skin js in XML
 1. `mg-xml-text` :: Free text in XML
 
 ### PHTML
 
-1. `mg-php-cms-block` :: CMS Block in PHTML(PHP+HTML)
-1. `mg-url` :: Get Url
-1. `mg-script` :: Adds script/javascript tag
-1. `mg-img` :: Image Skin Url
-1. `mg-vars` :: Get Variable from admin
-1. `mg-getchildhtml` :: Get Child Html Method
-1. `mg-productTypeId` :: Get Type Product Id
-1. `mg-translate-phtml` :: Adds the translator helper output
+1. `mg-debug-layout-handles` :: Debug layout handles
+1. `mg-format-price-currency` :: Format Price
 1. `mg-getAttrText` :: Get Attribute Text in product view
+1. `mg-getchildhtml` :: Get Child Html Method
+1. `mg-img` :: Image Skin Url
+1. `mg-php-cms-block` :: CMS Block in PHTML(PHP+HTML)
+1. `mg-productTypeId` :: Get Type Product Id
+1. `mg-script` :: Adds script/javascript tag
+1. `mg-storeInfo` :: Gets store information
+1. `mg-translate-phtml` :: Adds the translator helper output
 1. `mg-url-asec` :: Get Array Secure Url
 1. `mg-url-media` :: Get Media Url
-1. `mg-format-price-currency` :: Format Price
-1. `mg-storeInfo` :: Gets store information
+1. `mg-url` :: Get Url
+1. `mg-vars` :: Get Variable from admin
 1. `mg-viewport` :: Viewport metatag to load media-queries
-1. `mg-debug-layout-handles` :: Debug layout handles
 
 
 ### PHP
 1. `mg-collection-categories` :: Get all first level categories
 1. `mg-collection-products` :: Get all active products
 1. `mg-currency-symbol` :: Get currency symbol
-1. `mg-customer-logged-in` :: Get customer session status
 1. `mg-customer-group-id` :: Get customer group ID
+1. `mg-customer-logged-in` :: Get customer session status
 1. `mg-debug-zend` :: Debug SELECTION with Zend_Debug::dump
 1. `mg-log` :: Log something to system.log
 1. `mg-product-load-all` :: Load all products by SKUs
@@ -70,9 +70,9 @@ If you have something to improve these snippets, please create a [issue](https:/
 
 ### JS
 
-1. `mg-prototype-dom-ready` :: Adds Prototype DOM ready
 1. `mg-anon-func-jquery` :: Adds JS anonymous function passing jQuery as parameter
 1. `mg-console-log` :: Add console.log for debug
+1. `mg-prototype-dom-ready` :: Adds Prototype DOM ready
 
 ### SCSS
 

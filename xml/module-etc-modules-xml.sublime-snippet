@@ -1,0 +1,21 @@
+
+<snippet>
+  <content><![CDATA[<?xml version="1.0"?>
+<config>
+    <modules>
+        <${1:namespace}_${2:module}>
+            <version>$3</version>
+        </${1:namespace}_${2:module}>
+    </modules>
+    <global>
+        <helpers>
+            <${1:namespace}_${2:module}>
+                <class>${1:namespace}_${2:module}_Helper</class>
+            </${1:namespace}_${2:module}>
+        </helpers>
+    </global>
+</config>]]></content>
+  <tabTrigger>mg-module-etc-modules-xml</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Content: app/etc/modules/Namespace_Module.xml</description>
+</snippet>

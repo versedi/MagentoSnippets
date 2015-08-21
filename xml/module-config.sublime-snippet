@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[<config>
+    <modules>
+        <${1:namespace}_${2:module}>
+            <version>1.0.0.0</version>
+        </${1:namespace}_${2:module}>
+    </modules>
+    <global>
+        <helpers>
+            <${1:namespace}_${2:module}>
+                <class>${1:namespace}_${2:module}_Helper</class>
+            </${1:namespace}_${2:module}>
+        </helpers>
+        <models>
+            <${1:namespace}_${2:module}>
+                <class>${1:namespace}_${2:module}_Model</class>
+            </${1:namespace}_${2:module}>
+        </models>
+        <events>
+        </events>
+    </global>
+    <frontend>
+        <routers>
+            <${1:namespace}_${2:module}>
+                <use>standard</use>
+                <args>
+                    <module>${1:namespace}_${2:module}</module>
+                    <frontName>${1:namespace}_${2:module}</frontName>
+                </args>
+            </${1:namespace}_${2:module}>
+        </routers>
+    </frontend>
+</config>]]></content>
+  <tabTrigger>mg-module-config-xml</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Content: app/code/pool/Namespace/Module/etc/config.xml</description>
+</snippet>

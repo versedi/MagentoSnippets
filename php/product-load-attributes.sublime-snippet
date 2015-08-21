@@ -1,11 +1,8 @@
 <snippet>
-     <content><![CDATA[
-// Load all attribute sets and associate with IDs
-$product_attribute_sets = Mage::getResourceModel('eav/entity_attribute_set_collection')->setEntityTypeFilter(Mage::getModel('catalog/product')->getResource()->getTypeId());
-foreach ($product_attribute_sets as $a_sets) {
-    $this->_attribute_sets[$a_sets->getAttributeSetName()] = $a_sets->getAttributeSetId();
-}
- ]]></content>
+     <content><![CDATA[$product_attribute_sets = Mage::getResourceModel('eav/entity_attribute_set_collection')->setEntityTypeFilter(Mage::getModel('catalog/product')->getResource()->getTypeId());
+    foreach ($product_attribute_sets as $a_sets) {
+        $this->_attribute_sets[$a_sets->getAttributeSetName()] = $a_sets->getAttributeSetId();
+    }]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
      <tabTrigger>mg-product-load-attributes</tabTrigger>
      <!-- Optional: Set a scope to limit where the snippet will trigger -->

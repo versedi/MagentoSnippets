@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+$errorMessage .= ": ${2:error_string}  in ${2:error_file} on line ${3:error_line}";
+if (Mage::getIsDeveloperMode()) {
+    throw new Exception($errorMessage);
+} else {
+    Mage::log($errorMessage, Zend_Log::ERR);
+}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mg-exception-error</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>Throw exception if developer mode is on else log error</description>
+</snippet>

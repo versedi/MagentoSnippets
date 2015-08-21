@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${1:\$websiteId} = Mage::app()->getWebsite()->getId();]]></content>
+    <tabTrigger>mg-website-id</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Website ID</description>
+</snippet>

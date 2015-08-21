@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[Mage::log($1, Zend_Log::INFO);]]></content>
+    <content><![CDATA[Mage::log($1, Zend_Log::INFO, "${2:file}.log");]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mg-log</tabTrigger>
+    <tabTrigger>mg-log-custom-file</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
-    <description>Log something to system.log</description>
+    <description>Log something to custom file.log</description>
 </snippet>

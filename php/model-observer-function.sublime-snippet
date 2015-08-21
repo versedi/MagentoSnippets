@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Mage::getModel('${1:namespace_module}/${2:model}')->${3:function();]]></content>
+    <tabTrigger>mg-model-observer-function</tabTrigger>
+    <scope>source.php</scope>
+    <description>getModel from Custom observer</description>
+</snippet>

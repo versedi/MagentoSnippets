@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+\$specialPrice = \$_product->getSpecialPrice();
+if (\$specialPrice) {
+    \$specialPriceFromDate = \$_product->getSpecialFromDate();
+    \$specialPriceToDate = \$_product->getSpecialToDate();
+    \$today =  time();
+
+    if (\$today >= strtotime(\$specialPriceFromDate) && \$today <= strtotime(\$specialPriceToDate) || \$today >= strtotime(\$specialPriceFromDate) && is_null(\$specialPriceToDate)) {
+        return true;
+    } else {
+        return false;
+    }
+}]]></content>
+    <tabTrigger>mg-product-special-price-active</tabTrigger>
+    <scope>source.php</scope>
+    <description>Check if \$_product special price is active</description>
+</snippet>

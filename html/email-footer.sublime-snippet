@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[{{template config_path="design/email/footer"}}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mg-email-footer</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.basic</scope>
+    <description>Get Email Footer</description>
+</snippet>

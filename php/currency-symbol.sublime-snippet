@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-    $currencyCode = Mage::app()->getStore()->getCurrentCurrencyCode();
-    $currencySymbol = Mage::app()->getLocale()->currency($currencyCode)->getSymbol();
+$currencyCode = Mage::app()->getStore()->getCurrentCurrencyCode();
+$currencySymbol = Mage::app()->getLocale()->currency($currencyCode)->getSymbol();
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mg-currency-symbol</tabTrigger>

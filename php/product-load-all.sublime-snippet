@@ -1,9 +1,9 @@
 <snippet>
      <content><![CDATA[
-        $skus = $this->_db->query("SELECT entity_id,sku FROM " . $this->_dbResource->getTableName('catalog_product_entity'));
-        foreach ($skus as $sku) {
-            $this->_sku_to_ids[$sku['sku']] = intval($sku['entity_id']);
-        }
+\$skus = \$this->_db->query("SELECT entity_id,sku FROM " . \$this->_dbResource->getTableName('catalog_product_entity'));
+foreach (\$skus as \$sku) {
+    \$this->_sku_to_ids[\$sku['sku']] = intval(\$sku['entity_id']);
+}
  ]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
      <tabTrigger>mg-product-load-all</tabTrigger>

@@ -1,13 +1,11 @@
  <snippet>
-     <content><![CDATA[
-     $categories = Mage::getModel('catalog/category')->setStoreId($storeId)
+     <content><![CDATA[$categories = Mage::getModel('catalog/category')->setStoreId($storeId)
                           ->getCollection()
                           ->addAttributeToSelect('*')
                           ->addIsActiveFilter()
                           ->addAttributeToFilter('level', array('eq'=>2))
                           ->load();
     foreach($categories as $category => $categoryId) {
-
     }
  ]]></content>
      <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

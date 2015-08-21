@@ -1,7 +1,5 @@
 <snippet>
-    <content><![CDATA[
-Mage::log($SELECTION, 7, "${2:system}.log");
-]]></content>
+    <content><![CDATA[Mage::log($SELECTION, 7, "${2:system}.log");]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mg-log</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->

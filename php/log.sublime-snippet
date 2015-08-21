@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[Mage::log($1, Zend_Log::INFO);]]></content>
+    <content><![CDATA[Mage::log(${1:\$SomethingToLog}, Zend_Log::INFO);]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mg-log</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->

@@ -11,7 +11,7 @@ The tab trigger of this plugin is "mg-*".
 
 In some editors just the tab key don't trigger the snippet, so you have to check few things to make magic happens like on gif below.
 
-1. Check if you don't have set key binding for user:<br />
+1. Check if you don't have set key binding for user (if so you have to remove it):<br />
     ```{ "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },```
 1. If it still doesn't work add to your user settings below line: <br />
     ```"tab_completion": false,```

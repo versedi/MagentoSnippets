@@ -1,7 +1,9 @@
 <snippet>
-    <content><![CDATA[{{var store.getFrontendName()}}]]></content>
+    <content><![CDATA[{{depend store_email}}
+                                <b>Email:</b> <a href="mailto:{{var store_email}}">{{var store_email}}</a>
+                            {{/depend}}]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mg-email-var-store-phone</tabTrigger>
+    <tabTrigger>mg-email-var-store-email</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html.basic</scope>
     <description>Email variable Store Phone</description>

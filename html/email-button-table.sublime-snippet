@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[<table cellspacing="0" cellpadding="0" class="action-button">
+                <tr>
+                    <td>
+                        <a href="${1:url}"><span>${2:Button Text}</span></a>
+                    </td>
+                </tr>
+            </table>]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mg-email-button-table</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.basic</scope>
+    <description>Email Button - Table</description>
+</snippet>

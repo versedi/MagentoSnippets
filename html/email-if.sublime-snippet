@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[{{if ${1:variable}}}
+                          {{var ${1:variable}}}
+                    {{else}}
+                    ${1:else_var}
+                    {{/if}}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mg-email-if-else</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.basic</scope>
+    <description>Email variable if/else</description>
+</snippet>

@@ -4,7 +4,12 @@
 <config>
     <modules>
         <${1:namespace}_${2:module}>
-            <version>$3</version>
+            <version>${3:0.0.1.0}</version>
+            <active>${4:true}</active>
+            <codePool>${5:local}</codePool>
+            <depends>
+              {6:}
+            </depends>
         </${1:namespace}_${2:module}>
     </modules>
     <global>

@@ -4,16 +4,13 @@
 <config>
     <modules>
         <${1:namespace}_${2:module}>
-            <version>$3</version>
+            <version>${3:0.1.0}</version>
+            <active>${4:true}</active>
+            <codePool>${5:local}</codePool>
+            <depends>
+            </depends>
         </${1:namespace}_${2:module}>
     </modules>
-    <global>
-        <helpers>
-            <${1:namespace}_${2:module}>
-                <class>${1:namespace}_${2:module}_Helper</class>
-            </${1:namespace}_${2:module}>
-        </helpers>
-    </global>
 </config>]]></content>
   <tabTrigger>mg-module-etc-modules-xml</tabTrigger>
   <scope>text.xml</scope>

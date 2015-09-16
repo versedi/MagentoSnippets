@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[{{depend store_hours}}
+        <span class="no-link hours">{{var store_hours}}</span>
+        {{/depend}}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mg-email-var-store-hours</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.basic</scope>
+    <description>Email variable Store Hours</description>
+</snippet>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<?php Zend_Debug::dump($this->getLayout()->getUpdate()->getHandles()); ?>]]></content>
+    <content><![CDATA[<?php Zend_Debug::dump(\$this->getLayout()->getUpdate()->getHandles()); ?>]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mg-debug-layout-handles</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->

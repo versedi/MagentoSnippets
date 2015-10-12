@@ -18,7 +18,7 @@ In some editors just the tab key don't trigger the snippet, so you have to check
 1. Some people have assigned CTRL+Space as the snippet trigger
 1. Check if another package is not coliding with snippet trigger (i.e. Emmet can cause some issues with Sublime Text 3 Snippet usage)
 
-![MagentoSnippets: example of use](http://www.magefront.com.br/wp-content/uploads/2015/01/MagentoSnippets-sample.gif)
+![MagentoSnippets: example of use](http://www.magefront.com.br/wp-content/uploads/2015/08/MagentoSnippets-sample.gif)
 
 ## Suggestions
 If you have something to improve these snippets, please create a [issue](https://github.com/MageFront/MagentoSnippets/issues/new)
@@ -29,6 +29,8 @@ If you have something to improve these snippets, please create a [issue](https:/
 
 ### XML
 
+
+1. `mg-addLinkRel` :: Add LinkRel in XML
 1. `mg-insert` :: Insert block Method
 1. `mg-local-xml` :: Writes the basic structure to a new local.xml file
 1. `mg-ref` :: Add reference tag
@@ -44,16 +46,16 @@ If you have something to improve these snippets, please create a [issue](https:/
 
 ### PHTML
 
-1. `mg-select-country` :: Create select input from countries collection
 1. `mg-debug-layout-handles` :: Debug layout handles
 1. `mg-format-price-currency` :: Format Price
+1. `mg-get-messages-grouped-html` :: Messages Block (grouped HTML)
 1. `mg-getAttrText` :: Get Attribute Text in product view
 1. `mg-getchildhtml` :: Get Child Html Method
-1. `mg-get-messages-grouped-html` :: Messages Block (grouped HTML)
 1. `mg-img` :: Image Skin Url
 1. `mg-php-cms-block` :: CMS Block in PHTML(PHP+HTML)
 1. `mg-productTypeId` :: Get Type Product Id
 1. `mg-script` :: Adds script/javascript tag
+1. `mg-select-country` :: Create select input from countries collection
 1. `mg-store-code` :: Get store code
 1. `mg-storeInfo` :: Get store information
 1. `mg-translate-phtml` :: Adds the translator helper output
@@ -92,10 +94,15 @@ If you have something to improve these snippets, please create a [issue](https:/
 
 ### JS
 
+
 1. `mg-anon-func-jquery` :: Adds JS anonymous function passing jQuery as parameter
 1. `mg-console-log` :: Add console.log for debug
+1. `mg-iife-jquery` :: IIFE passing jQuery as parameter
 1. `mg-prototype-dom-ready` :: Adds Prototype DOM ready
 
 ### SCSS
 
 1. `mg-clearfix` :: Creates a placeholder selector to fix floats
+1. `mg-scss-imgurl` :: Calls the image url function
+1. `mg-scss-sprite-height-width` :: Calls in scss sprite height and width functions
+1. `mg-scss-sprite` :: Calls in scss the Sprite function

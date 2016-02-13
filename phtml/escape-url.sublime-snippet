@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<?php echo \$this->escapeUrl($1); ?>]]></content>
+    <tabTrigger>mg-escape-url</tabTrigger>
+    <scope>text.html.basic</scope>
+    <description>Escape URL</description>
+</snippet>
